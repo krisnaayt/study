@@ -17,5 +17,7 @@ Route::get('/', function () {
 */
 Route::get('/user', 'UserController@show_user');
 Route::post('/add_user', 'UserController@add_user');
+Route::get('/show_edit_user/{id}', 'UserController@show_edit_user');
+Route::get('/edit_user/{id}', 'UserController@edit_user');
 Route::get('/delete_user/{id}', 'UserController@delete_user');
 
