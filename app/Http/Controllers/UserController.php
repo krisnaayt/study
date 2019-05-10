@@ -41,8 +41,5 @@ class UserController extends Controller
         ];
         $update = users::where('id', $id)->update($data_user);                            
         return redirect('/user');
-
-        //test git
-
     }
 }
