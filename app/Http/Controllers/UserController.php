@@ -40,6 +40,6 @@ class UserController extends Controller
             'password'=>$request->password
         ];
         $update = users::where('id', $id)->update($data_user);                            
-            return redirect('/user');
+        return redirect('/user');
     }
 }
