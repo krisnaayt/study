@@ -1,1 +1,1 @@
-contoh git pull
+contoh git pull 2
